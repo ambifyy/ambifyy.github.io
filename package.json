@@ -30,7 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install": "npm-git install", 
+    "install": "npm-git install",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
