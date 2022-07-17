@@ -16,6 +16,7 @@ import {Link} from 'react-router-dom';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import { HashRouter } from 'react-router-dom'
 import $ from 'jquery';
 import Popper from 'popper.js';
 
@@ -23,7 +24,9 @@ import Popper from 'popper.js';
 //root.render(
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
+      <HashRouter>
       <App/>
+      </HashRouter>
     </React.StrictMode>
   );
 
