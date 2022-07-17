@@ -9,7 +9,7 @@ class Header extends Component {
     render() { 
         return (
             <div className="header1 sticky-top container-fluid py-4 bg-dark text-white text-left">
-                <span className = "h2 m-5"><a className="text-white" href="/">Ambifjssjyy</a></span>
+                <span className = "h2 m-5"><a className="text-white" href="/">Ambifyy</a></span>
                 <span className = "float-right mr-5"><a className="text-white" href="/login"><i className="material-symbols-outlined account">account_circle</i></a></span>
                 {/*<p><Link to="/Ambience">Ambience</Link></p>*/}
             </div>
