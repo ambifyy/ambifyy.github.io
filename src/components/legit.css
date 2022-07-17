@@ -1,0 +1,31 @@
+.sus1{
+    margin-top: 25%; 
+}
+
+#sus2{
+    width: 10%; 
+}
+
+.sus3{
+    cursor: pointer; 
+}
+
+.fade-in-image {
+    width: 100vw; 
+    animation: fadeIn 5s;
+    animation-play-state: paused;
+}
+
+.bgDiv{
+    height: 100vh; 
+}
+
+.header1{
+    display: block;
+}
+
+
+@keyframes fadeIn {
+    50% { opacity: .5; }
+    100% { opacity: 1; }
+}
